@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Assistant de Préconisation Signatix</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <!-- Logo Signatix -->
+    <img src="https://signatix.fr/img/favicon/android-icon-192x192.png" alt="Logo Signatix" class="logo" />
+    <h1 class="title">
+      Trouvez en 3 clics<br>
+      le support qu'il vous faut
+    </h1>
+    <p class="subtitle">
+      Sélectionnez l'usage final attendu pour découvrir les supports d'impression recommandés.<br>
+      <span class="subtitle-note">Pour une expérience optimale, connectez-vous à votre compte Signatix.fr</span>
+    </p>
+    <form id="precoForm">
+      <select id="usageSelect" name="usageSelect">
+        <option value="">-- Choisissez un usage --</option>
+        <!-- Options populated by JS -->
+      </select>
+      <button type="submit">Obtenir les préconisations</button> 
+      <button type="reset" class="reset-button">Réinitialiser</button> <!-- Nouveau bouton -->
+      </form>
+    <div id="resultat" aria-live="polite"></div>
+  </div>
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
