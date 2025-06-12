@@ -153,7 +153,7 @@ const recommandations = {
     { nom: "Bâche 650g blockout M1 imp.R°", prix: "10.99 € HT/m²", delai: "4 jours", url: "https://signatix.fr/supports/baches-toiles?id=22" },
     { nom: "Bâche 650g blockout M1 imp.R°V°", prix: "26.8 € HT/m²", delai: "5 jours", url: "https://signatix.fr/supports/baches-toiles?id=45" }
   ],
-  "Plaque professionnel": [
+  "Plaque professionnelle": [
     { nom: "Panneau Alu Bond 3mm", prix: "30.99 € HT/m²", delai: "4 jours", url: "https://signatix.fr/supports/supports-rigides?id=30" },
     { nom: "Plexi 5mm ", prix: "62.99 € HT/m²", delai: "6 jours", url: "https://signatix.fr/supports/supports-rigides?id=42" },
     { nom: "Plexi 8mm", prix: "98.0 € HT/m²", delai: "6 jours", url: "https://signatix.fr/supports/supports-rigides?id=91" }
